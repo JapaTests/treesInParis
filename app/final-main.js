@@ -176,7 +176,7 @@ require([
 
     /////Création d'une couche à partir du JSON
     const arbresRemarquables = new GeoJSONLayer({
-      url: "app/arbresremarquablesparis.geojson",
+      url: "./app/arbresremarquablesparis.geojson",
       //screenSizePerspectiveEnabled: false,
       renderer: treeRenderer,
       elevationInfo: {
